@@ -7,6 +7,7 @@ body{
     max-width: 900px;
     margin: 0 auto;
     display: flex;
+    padding: 0 2%;
 }
 
 /* CABEÇALHO */
@@ -65,11 +66,12 @@ body{
     padding: 8px 20px;
     color: #fff;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .conteudoPrincipal__listaTweets{
     display: flex;
-    flex-flow: column-reverse nowrap;
+    flex-flow: column nowrap;
 }
 .conteudoPrincipal__tweet{
     padding: 20px 32px;
